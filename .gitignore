@@ -1,0 +1,47 @@
+# Data files - ignore entire Data folder
+Data/
+data/
+
+# Common data file extensions
+*.csv
+*.xlsx
+*.xls
+*.sas7bdat
+*.sas7bcat
+*.xpt
+*.dat
+*.txt
+*.dta
+*.rda
+*.rds
+*.RData
+
+# SAS specific
+*.log
+*.lst
+*.sas7bndx
+
+# R specific
+.Rhistory
+.RData
+.Rproj.user
+*.Rproj
+
+# Python specific
+__pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints/
+*.egg-info/
+.venv/
+venv/
+ENV/
+
+# Temporary files
+*~
+*.tmp
+*.bak
+
+# OS specific
+.DS_Store
+Thumbs.db
